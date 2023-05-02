@@ -1,0 +1,57 @@
+#root{
+  margin: 0;
+  padding: 0;
+}
+.App__container {
+  min-width: 100%;
+  min-height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text__center {
+  width: 80%;
+  max-width: 443.26px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px; 
+  line-height: 1.2;
+  text-align: center;
+  margin: 1rem 0;
+  color: #FFFFFF;
+}
+.phrase__content {
+  width: 80%;
+  max-width: 627px;
+  height: auto;
+  margin: 1rem 0;
+  background: #FFFFFF;
+  box-shadow: 12px 12px 1px rgba(0, 0, 0, 0.13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.Btn__container {
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 181px;
+  height: 4vw;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+@media screen and ( min-width: 321){
+  .phrase__content{
+    height: 300px;
+  }
+}

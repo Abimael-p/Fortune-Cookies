@@ -1,0 +1,13 @@
+.phrase__container{
+    width: 435px;
+    height: 72px;
+    left: 422px;
+    top: 294.38px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #727272;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

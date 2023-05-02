@@ -1,0 +1,15 @@
+.Button__container{
+    width: 181px;
+    height: 28px;
+    left: 602px;
+    top: 500px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #727272;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
