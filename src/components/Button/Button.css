@@ -1,14 +1,15 @@
 .Button__container{
-    width: 181px;
-    height: 28px;
+    width: auto;
+    height: 40px;
     left: 602px;
     top: 500px;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.17);
     color: #727272;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;

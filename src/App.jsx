@@ -9,7 +9,7 @@ import MacMacBook3 from './image/MacBook-Air-3.jpg';
 import MacMacBook4 from './image/MacBook-Air-4.jpg';
 import './App.css';
 
-const BackGrounds = [MacMacBook1, MacMacBook2, MacMacBook3, MacMacBook4]
+const BackGrounds = [MacMacBook1, MacMacBook2, MacMacBook3, MacMacBook4];
 
 function App() {
   const getRandomPhrase = () => phrases[getRandomNumber(phrases.length -1)];
@@ -44,4 +44,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

@@ -38,9 +38,9 @@
 }
 .Btn__container {
   box-sizing: border-box;
-  width: 80%;
-  max-width: 181px;
-  height: 4vw;
+  width: auto;
+  max-width: auto;
+  height: 40px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.6);
   border: 2px solid #FFFFFF;
@@ -50,8 +50,6 @@
   align-items: center;
   margin: 1rem 0;
 }
-@media screen and ( min-width: 321){
-  .phrase__content{
-    height: 300px;
-  }
+.Btn__container:hover{
+  transform: translateY(-3px);
 }
